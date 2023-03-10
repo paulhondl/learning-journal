@@ -1,0 +1,28 @@
+footer {
+  font-size: 14px;
+  height: 80px;
+  background-color: #202020;
+  color: white;
+  display: grid;
+  place-items: center;
+}
+
+.footer-text {
+  text-align: center;
+}
+
+footer h4 {
+  color: #ECECEC;
+  margin-bottom: 5px;
+}
+
+footer p {
+  color: #D7D7D7;
+}
+
+@media (max-width: 700px) {
+
+  footer {
+    font-size: 12px;
+  }
+}

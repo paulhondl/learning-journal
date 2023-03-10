@@ -1,0 +1,52 @@
+.introduction {
+  background-color: #ecefdba6;
+  padding: 70px;
+}
+
+.introduction-header {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 50px;
+}
+
+.introduction-header-text h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.introduction-header-text p {
+  line-height: 1.5;
+}
+
+#avatar {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.introduction-text {
+  margin-inline: 30px;
+}
+
+.introduction-text h3 {
+  font-size: 24px;
+}
+
+.introduction-text p {
+  margin-block: 20px;
+  line-height: 1.4;
+}
+
+@media (max-width: 700px) {
+  .introduction-header {
+    flex-direction: column;
+    height: auto;
+    gap: 1rem;
+  }
+  #avatar {
+    align-self: flex-start;
+  }
+}
